@@ -8,10 +8,10 @@ type Props = {
 
 export default function Dialog({ closeDialog }: Props) {
   return (
-    <div className="fixed inset-0 z-2 flex items-center justify-center bg-[#0C0117]">
+    <div className="fixed inset-0 z-2 pt-[159px] bg-[#0C0117]">
       <div className="absolute -bottom-[30%] left-[10%] w-96 h-96 bg-purple-500/30 rounded-full blur-3xl opacity-[0.6]" />
 
-      <div className='px-[50px] pb-[73px] pt-[90px] shadow-[inset_4px_6px_10px_4px_rgba(167,93,243,0.2)] rounded-[16px] w-[410px] relative'>
+      <div className='px-[50px] pb-[73px] mx-auto pt-[90px] shadow-[inset_4px_6px_10px_4px_rgba(167,93,243,0.2)] rounded-[16px] w-[410px] relative'>
         <button onClick={closeDialog} className='cursor-pointer absolute right-[29px] top-[28px]'>
           <Image width={32} height={32} src="/close.svg" alt="Close icon" />
         </button>

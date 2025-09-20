@@ -7,8 +7,8 @@ type Props = {
 
 export default function Footer({ openDialog }: Props) {
   return (
-    <footer className="overflow-hidden mb-[59px] pt-[60px] pb-[66px] flex items-center justify-center relative border border-solid border-t-[#7375FF] border-b-[#7375FF]">
-      <Image width={513} height={488} src="/footer.svg" alt="footer" className="absolute top-0 left-0 -z-1" />
+    <footer className="overflow-hidden mb-[59px] pt-[60px] pb-[66px] flex items-center justify-center relative border-y border-solid border-t-[#7375FF] border-b-[#7375FF]">
+      <Image width={513} height={488} src="/footer.svg" alt="footer" className="absolute top-0 left-0 -z-1" loading="lazy" />
 
       <div className="flex flex-col gap-[44px] relative w-[40%]">
         <div className="flex flex-col px-[44px] gap-5">

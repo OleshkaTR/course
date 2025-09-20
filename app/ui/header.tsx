@@ -14,13 +14,13 @@ type Props = {
 export default function Header({ openDialog }: Props) {
   return (
     <header className="z-3 flex items-center justify-between pt-10 pb-[67px] px-20 sticky top-0 bg-[#0C0117]">
-        <p className={`${sansation.className} font-bold text-lg uppercase flex-[1]`}>Aleko{' '}
+        <p className={`${sansation.className} font-bold text-lg uppercase]`}>Aleko{' '}
           <span className="bg-gradient-to-r from-[#5BDBFD] via-[#7375FF] to-[#DF93FF] bg-clip-text text-transparent">
             Sokurashvili
           </span>
         </p>
 
-        <div className="flex items-center justify-between flex-[2]">
+        <div className="flex items-center justify-end gap-[57px]">
           <ul className="flex gap-7 items-center">
             <li className="cursor-pointer text-base font-medium">Структура</li>
             <li className="cursor-pointer text-base font-medium">Про мене</li>
