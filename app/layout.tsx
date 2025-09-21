@@ -1,11 +1,6 @@
-import { Raleway } from "next/font/google";
 import "./globals.css";
 import { Metadata } from "next";
-
-const raleway = Raleway({
-  subsets: ["latin"],
-  weight: ['400', '500', '600', '700']
-});
+import { raleway } from "./ui/fonts";
 
 export const metadata: Metadata = {
   title: 'Overview'

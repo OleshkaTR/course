@@ -8,7 +8,7 @@ type Props = PropsWithChildren<{
 export default function TariffHeader({ title, className, children }: Props) {
   return (
     <div className={`flex items-center justify-between gap-[11px] ${className}`}>
-      <p className="text-[20px] font-semibold uppercase">{title}</p>
+      <p className="text-[20px] max-sm:text-base font-semibold uppercase">{title}</p>
 
       {children}
     </div>
