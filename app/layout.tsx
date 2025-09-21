@@ -1,6 +1,8 @@
-import "./globals.css";
 import { Metadata } from "next";
+
 import { raleway } from "./ui/fonts";
+
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: 'Overview'
