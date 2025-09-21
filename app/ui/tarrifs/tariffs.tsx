@@ -14,13 +14,13 @@ type Props = {
 
 export default function Tariffs({ openDialog }: Props) {
   return (
-    <div className="flex flex-col items-center gap-[79px] max-sm:gap-7 relative">
+    <div className="flex flex-col items-center gap-[79px] max-md:gap-7 relative">
       <div className="-z-1 absolute right-0 -top-20 w-[368px] h-[346px] bg-[#A75DF3] blur-3xl opacity-[0.2]" />
 
-      <p className="text-[48px] max-sm:text-[24px] font-bold uppercase">Тарифи</p>
+      <p className="text-[48px] max-md:text-[24px] font-bold uppercase">Тарифи</p>
 
-      <div className="flex max-sm:flex-col max-sm:gap-[26px] items-center gap-5 max-sm:gap-[26px] w-full">
-        <div className=" h-[466px] relative overflow-hidden rounded-[16px] w-full max-sm:pt-8 pt-9 px-8 pb-[26px] flex flex-col bg-[#0C0117] shadow-[inset_4px_6px_10px_4px_rgba(167,93,243,0.2)]">
+      <div className="flex max-md:flex-col max-md:gap-[26px] items-center gap-5 max-md:gap-[26px] w-full">
+        <div className=" h-[466px] relative overflow-hidden rounded-[16px] w-full max-md:pt-8 pt-9 px-8 pb-[26px] flex flex-col bg-[#0C0117] shadow-[inset_4px_6px_10px_4px_rgba(167,93,243,0.2)]">
           <div className="absolute -right-16 -top-12 w-[184px] h-[173px] bg-[#A75DF3] blur-3xl opacity-[0.3]" />
           
           <div className="flex flex-col gap-[29px] h-full">
@@ -41,7 +41,7 @@ export default function Tariffs({ openDialog }: Props) {
               />
 
               <Button
-                className={`${manrope.className} max-sm:h-[47px] z-1 h-[57px] text-[#0C0117] w-full bg-white max-sm:text-sm text-base rounded-full`}
+                className={`${manrope.className} max-md:h-[47px] z-1 h-[57px] text-[#0C0117] w-full bg-white max-md:text-sm text-base rounded-full`}
                 onClick={openDialog}
               >
                 Купити
@@ -52,8 +52,8 @@ export default function Tariffs({ openDialog }: Props) {
           <div className="absolute -left-16 -bottom-12 w-[184px] h-[173px] bg-[#13B8FF] blur-3xl opacity-[0.3]" />
         </div>
 
-        <div className="h-[466px] max-sm:mt-[21px] relative rounded-[16px] w-full pt-[27px] px-9 max-sm:px-7 max-sm:pt-8 pb-[26px] flex flex-col bg-white shadow-[inset_4px_6px_10px_4px_rgba(167,93,243,0.2)]">
-          <div className="absolute max-sm:-top-[21px] -top-[30px] left-1/2 -translate-x-1/2 flex items-center shadow-[0px_4px_16px_1px_rgba(0,0,0,0.25)] bg-gradient-to-br from-[#5BDBFD] to-[#7375FF] justify-center h-[42px] px-[34px] rounded-[16px]">
+        <div className="h-[466px] max-md:mt-[21px] relative rounded-[16px] w-full pt-[27px] px-9 max-md:px-7 max-md:pt-8 pb-[26px] flex flex-col bg-white shadow-[inset_4px_6px_10px_4px_rgba(167,93,243,0.2)]">
+          <div className="absolute max-md:-top-[21px] -top-[30px] left-1/2 -translate-x-1/2 flex items-center shadow-[0px_4px_16px_1px_rgba(0,0,0,0.25)] bg-gradient-to-br from-[#5BDBFD] to-[#7375FF] justify-center h-[42px] px-[34px] rounded-[16px]">
             <p className="uppercase font-bold text-base shrink-0">Best seller</p>
           </div>
           
@@ -63,7 +63,7 @@ export default function Tariffs({ openDialog }: Props) {
                 title='Продвинутий'
                 className="text-[#0C0117]"
               >
-                <div className="flex items-center justify-center rounded-full w-full bg-[#0C0117] h-[42px]">
+                <div className="flex items-center justify-center rounded-full bg-[#0C0117] px-[30px] h-[42px]">
                   <p className="uppercase font-bold bg-gradient-to-r from-[#5BDBFD] to-[#7375FF] bg-clip-text text-transparent">Pro</p>
                 </div>
               </TariffHeader>
@@ -82,7 +82,7 @@ export default function Tariffs({ openDialog }: Props) {
               />
 
               <Button
-                className={`${manrope.className} max-sm:h-[47px] h-[57px] bg-[#0C0117] w-full max-sm:text-sm text-base rounded-full`}
+                className={`${manrope.className} max-md:h-[47px] h-[57px] bg-[#0C0117] w-full max-md:text-sm text-base rounded-full`}
                 onClick={openDialog}
               >
                 Купити
@@ -114,7 +114,7 @@ export default function Tariffs({ openDialog }: Props) {
               />
 
               <Button
-                className={`${manrope.className} max-sm:h-[47px] h-[57px] bg-white w-full max-sm:text-sm text-base text-[#0C0117] rounded-full`}
+                className={`${manrope.className} max-md:h-[47px] h-[57px] bg-white w-full max-md:text-sm text-base text-[#0C0117] rounded-full`}
                 onClick={openDialog}
               >
                 Купити

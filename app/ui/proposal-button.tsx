@@ -20,15 +20,15 @@ export default function ProposalButton({
       onClick={onClick}
       className={`
         shadow-[inset_7px_11px_18px_7px_rgba(167,93,243,0.2) relative rounded-full
-        ${size === 'large' ? 'max-sm:h-[60px] h-[74px]' : 'h-10'}
+        ${size === 'large' ? 'max-md:h-[60px] h-[74px]' : 'h-10'}
         ${className}
       `}
     >
-      <p className={`${size === 'large' ? 'max-sm:text-sm text-[22px]' : 'text-xs'} font-semibold`}>Придбати зi знижкою</p>
+      <p className={`${size === 'large' ? 'max-md:text-sm text-[22px]' : 'text-xs'} font-semibold`}>Придбати зi знижкою</p>
 
       {showDiscont && (
-        <div className="max-sm:w-[60px] max-sm:h-[60px] w-[74px] h-[74px] absolute right-0 bg-[#FF4A77] rounded-full top-0 flex items-center justify-center">
-          <p className="text-2xl max-sm:text-[20px] font-semibold">-50%</p>
+        <div className="max-md:w-[60px] max-md:h-[60px] w-[74px] h-[74px] absolute right-0 bg-[#FF4A77] rounded-full top-0 flex items-center justify-center">
+          <p className="text-2xl max-md:text-[20px] font-semibold">-50%</p>
         </div>
       )}
     </Button>

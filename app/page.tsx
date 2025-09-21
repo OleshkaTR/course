@@ -25,7 +25,7 @@ export default function Home() {
     <div>
       <Header openDialog={handleOpenDialog} />
 
-      <main className="flex flex-col gap-[200px] max-sm:gap-[132px] max-sm:px-10 overflow-auto px-20 pb-[200px]">
+      <main className="flex flex-col gap-[200px] max-md:gap-[132px] max-md:px-10 overflow-auto px-20 pb-[200px]">
         <Intro openDialog={handleOpenDialog} />
 
         <Tariffs openDialog={handleOpenDialog} />
